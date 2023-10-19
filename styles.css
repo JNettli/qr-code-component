@@ -21,26 +21,37 @@ body {
     background-color: #2C7DFA;
     border-radius: 10px;
     margin-bottom: 24px;
+    height: 288px;
+    width: 288px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
 
 .beeg-circle {
     height: 328px;
     width: 328px;
+    background-color: #3685FF;
     border-radius: 50%;
+    position: relative;
+    bottom: 420%;
+    right: 112%;
 }
 
 .smol-circle {
     height: 270px;
     width: 270px;
+    background-color: #3685FF;
     border-radius: 50%;
-    z-index: -1;
+    position: relative;
+    top: -16%;
+    left: 44%;
 }
 
 .qr-code {
     padding: 64px;
     height: 160px;
     width: 160px;
-    z-index: -1;
 }
 
 .big-text {
