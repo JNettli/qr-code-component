@@ -3,8 +3,6 @@ body {
     background-color: #D5E1EF;
     font-family: 'Outfit', sans-serif;
     text-align: center;
-    width: 100%;
-    height: 100%;
 }
 
 .container {
@@ -70,4 +68,21 @@ body {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1024px) {
+    .qr-card {
+        background-color: #3685FF;
+    }
+    .smol-circle {
+        background-color: #2C7DFA;
+    }
+    .beeg-circle {
+        background-color: #2C7DFA;
+    }
 }
